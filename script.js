@@ -65,7 +65,7 @@ function reset() {
     testWrapper.style.boderColor = "grey"
 }
 
-// Listeners de eventos para entrada de teclado e o botão de recomeçar:
+// Listeners de eventos para entrada de teclado botão de recomeçar:
 testArea.addEventListener("keypress", start, false);
 testArea.addEventListener("keyup", spellCheck, false);
 resetButton.addEventListener("click", reset, false);
